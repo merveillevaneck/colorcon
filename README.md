@@ -2,30 +2,29 @@
 static java class that provides color output to console through in-string markup labels.
 
 ## use
-
-<l1>ansi reset:		/<l1>
-<l1>ansi bold:		b<l1>
-<l1>ansi white:		w	white<l1>
-<l1>ansi black:			black<l1>
-<l1>ansi red:		r	red<l1>
-<l1>ansi green:		g	green<l1>
-<l1>ansi yellow:	y	yellow<l1>
-<l1>ansi blue:			blue<l1>
-<l1>ansi purple:	p	purple<l1>
-<l1>ansi cyan:		c 	cyan<l1>
-
-<l1>ansi black background:		bb<l1>
-<l1>ansi white background: 		wb<l1>
-<l1>ansi red background:		rb<l1>
-
-<l1>ansi black underline:		bu<l1>
-<l1>ansi white underline:		wu<l1>
-<l1>ansi red underline:			ru<l1>
-<l1>ansi green underline:		gu<l1>
-<l1>ansi yellow undelrine:		yu<l1>
-<l1>ansi blue underline:				blueu<l1>
-<l1>ansi purple underline:		pu<l1>
-<l1>ansi cyan underline:		cu<l1>
+|Color|tag 1|tag 2|
+|-----|:---:|:---:|
+|ansi reset:|
+|ansi bold:|b||
+|ansi white:|w|white|
+|ansi black:||black|
+|ansi red:|r|red|
+|ansi green:|g|green|
+|ansi yellow:|y|yellow|
+|ansi blue:||blue|
+|ansi purple:|p|purple|
+|ansi cyan:|c|cyan|
+|ansi black background:|bb||
+|ansi white background:|wb||
+|ansi red background:|rb||
+|ansi black underline:|bu||
+|ansi white underline:|wu||
+|ansi red underline:|ru||
+|ansi green underline:|gu||
+|ansi yellow undelrine:|yu||
+|ansi blue underline:||blueu|
+|ansi purple underline:|pu||
+|ansi cyan underline:cu||
 
 
 The above tgs may be used at the beginning of a java string, with the string
