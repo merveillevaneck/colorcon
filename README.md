@@ -3,29 +3,29 @@ static java class that provides color output to console through in-string markup
 
 ## use
 
-ansi reset:		</>
-ansi bold:		<b>
-ansi white:		<w>	<white>
-ansi black:			<balck>
-ansi red:		<r>	<red>
-ansi green:		<g>	<green>	
-ansi yellow:	<y>	<yellow>
-ansi blue:			<blue>
-ansi purple:	<p>	<purple>
-ansi cyan:		<c> <cyan>
+ansi reset:		/
+ansi bold:		b
+ansi white:		w	white
+ansi black:			black
+ansi red:		r	red
+ansi green:		g	green	
+ansi yellow:	y	yellow
+ansi blue:			blue
+ansi purple:	p	purple
+ansi cyan:		c 	cyan
 
-ansi black background:		<bb>
-ansi white background: 		<wb>
-ansi red background:		<rb>
+ansi black background:		bb
+ansi white background: 		wb
+ansi red background:		rb
 
-ansi black underline:		<bu>
-ansi white underline:		<wu>
-ansi red underline:			<ru>
-ansi green underline:		<gu>
-ansi yellow undelrine:		<yu>
-ansi blue underline:			<blueu>
-ansi purple underline:		<pu>
-ansi cyan underline:		<cu>
+ansi black underline:		bu
+ansi white underline:		wu
+ansi red underline:			ru
+ansi green underline:		gu
+ansi yellow undelrine:		yu
+ansi blue underline:			blueu
+ansi purple underline:		pu
+ansi cyan underline:		cu
 
 
 The above tgs may be used at the beginning of a java string, with the string
@@ -35,6 +35,7 @@ corresponding ansi color code. When using the tag, only incllude the opening tag
 of the color/effect that you want to include, and use the ansi reset tag (</>)
 at the end of the current string or the beginning of the next string to reset
 the color of the output.
+##
 
 ##exmple code:
 
