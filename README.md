@@ -7,7 +7,7 @@ use the following keywords (either option 1 or 2) surrounded by diamond brackets
 
 |Color|code 1|code 2|
 |-----|:----:|:----:|
-|ansi reset:\\||
+|ansi reset:|/|
 |ansi bold:|b||
 |ansi white:|w|white|
 |ansi black:||black|
@@ -38,22 +38,22 @@ of the color/effect that you want to include, and use the ansi reset tag (</>)
 at the end of the current string or the beginning of the next string to reset
 the color of the output.
 
-	###example code
+###example code
 
-	```java
-	String blackred = "<black>Hello, World! </><red>I am alive!";
-	Console.log(blackred);
-	```
+```java
+String blackred = "<black>Hello, World! </><red>I am alive!";
+Console.log(blackred);
+```
 
-	If you wish to add more color codes to this class, simply find the corresponding
-	ansi color code and add it to the list of static final ANSI strings, and add the
-	corresponding case in the switch statement that returns the corresponding ANSI
-	color code when a specific tag if found.
+If you wish to add more color codes to this class, simply find the corresponding
+ansi color code and add it to the list of static final ANSI strings, and add the
+corresponding case in the switch statement that returns the corresponding ANSI
+color code when a specific tag if found.
 
-	The parsing method parses the tags recursively.
+The parsing method parses the tags recursively.
 
-	###installation
+###installation
 
-	If you wish to use this class, simply clone the repo into your working direcory
-	and copy the Console.java file into your project.
+If you wish to use this class, simply clone the repo into your working direcory
+and copy the Console.java file into your project.
 
