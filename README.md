@@ -38,7 +38,7 @@ of the color/effect that you want to include, and use the ansi reset tag (</>)
 at the end of the current string or the beginning of the next string to reset
 the color of the output.
 
-###example code
+**example code:**
 
 ```java
 String blackred = "<black>Hello, World! </><red>I am alive!";
@@ -52,7 +52,7 @@ color code when a specific tag if found.
 
 The parsing method parses the tags recursively.
 
-###installation
+**installation:**
 
 If you wish to use this class, simply clone the repo into your working direcory
 and copy the Console.java file into your project.
